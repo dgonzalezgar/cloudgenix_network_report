@@ -34,13 +34,13 @@ If no credentials are provided the script prompts interactively and lets you cho
 **Using an API token (recommended for scripts and automation):**
 
 ```bash
-python cloudgenix_network_report.py --token YOUR_AUTH_TOKEN
+python cloudgenix_network_report.py --token "YOUR_AUTH_TOKEN"
 ```
 
 **Custom output file:**
 
 ```bash
-python cloudgenix_network_report.py --token YOUR_AUTH_TOKEN --output wan_report.csv
+python cloudgenix_network_report.py --token "YOUR_AUTH_TOKEN" --output wan_report.csv
 ```
 
 **Using email and password:**
