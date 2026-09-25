@@ -78,8 +78,8 @@ The report is written as a CSV with the following columns:
 
 Static auth tokens are the recommended approach for automation. They are created directly from the Prisma SD-WAN web interface:
 
-1. Log in to the **Prisma SD-WAN** portal (via Strata Cloud Manager or the standalone portal).
-2. Navigate to **System → Access Management → Site Access → Auth Tokens**.
+1. Log in to **Strata Cloud Manager**.
+2. Navigate to **Configuration → Prisma SD-WAN → System → Auth Token**.
 3. Click **Create Auth Token** and follow the prompts.
 4. Copy the generated token and pass it to the script via `--token`.
 
